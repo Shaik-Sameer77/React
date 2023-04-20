@@ -1,6 +1,6 @@
 import './App.css';
 import ReactLogo from './Reactlogo/reactlogo'
-import Button from './Button/buttton';
+import Button from './Button/button';
 import ReactBenefits from './ReactBenifits/Benifits'
 
 
