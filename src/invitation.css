@@ -1,0 +1,11 @@
+.invitation__subject,
+.invitation__to,
+.invitation__name,
+.invitation__event,
+.invitation__date,
+.invitation__location,
+.invitation__people,
+.invitation__avenue,
+.invitation__from {
+  color: red;
+}
