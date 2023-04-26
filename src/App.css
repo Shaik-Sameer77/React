@@ -1,53 +1,62 @@
-.App {
-  text-align: center;
-  background-color: #87ceeb;
-}
-
-.profile-card {
-  background-color: #f5eefc;
-  border: 1px solid #af5eff;
-  border-radius: 10px;
+.product-container {
   display: flex;
-  margin: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-row {
+  display: flex;
+  flex-basis: 100%;
+  margin-bottom: 20px;
+}
+
+.product-card {
+  flex-basis: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
   padding: 20px;
-  width: 300px;
-}
-
-.profile-card img {
-  height: 80px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
   margin-right: 20px;
-  width: 80px;
 }
 
-.details {
-  flex: 1;
+.product-card img {
+  width: 100vh;
+  height: 100vh;
+  object-fit: cover;
+  margin-bottom: 10px;
 }
 
-.name {
-  color: #af5eff;
-  font-size: 24px;
-  margin: 0;
-}
-
-.designation {
-  color: #666;
+.product-card h2 {
   font-size: 18px;
-  margin: 0;
+  margin-bottom: 5px;
 }
 
-.job-description {
-  color: #333;
+.product-card h3 {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.product-card p {
   font-size: 14px;
-  margin: 0;
+  margin-bottom: 5px;
 }
 
-.see-more {
-  background-color: #af5eff;
-  border: none;
-  border-radius: 5px;
+.add-to-cart-btn {
+  background-color: #3498db;
   color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
   cursor: pointer;
-  font-size: 14px;
-  margin-top: 10px;
-  padding: 5px 10px;
+  margin-top: auto;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #2980b9;
 }
